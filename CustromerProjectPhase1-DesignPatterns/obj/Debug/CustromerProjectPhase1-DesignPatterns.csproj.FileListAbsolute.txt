@@ -1,0 +1,6 @@
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.dll
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.csprojResolveAssemblyReference.cache
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.csproj.CoreCompileInputs.cache
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.dll
+c:\users\abdelrahman tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.pdb

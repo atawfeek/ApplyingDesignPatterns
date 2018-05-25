@@ -1,0 +1,9 @@
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.dll
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.pdb
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\bin\Debug\CustomerInterface.dll
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\bin\Debug\CustomerInterface.pdb
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csprojAssemblyReference.cache
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CopyComplete
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.dll
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.pdb

@@ -1,0 +1,9 @@
+c:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.dll
+c:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+c:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csproj.CoreCompileInputs.cache
+c:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.dll
+c:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csprojAssemblyReference.cache
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.dll
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.pdb
+C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csproj.CopyComplete
