@@ -10,37 +10,27 @@ using System.Threading.Tasks;
 
 namespace CommonDal
 {
-    public abstract class AbstractDAL<AnyType> : DbContext , IDAL<AnyType>
+    public class AbstractDAL<AnyType> : IRepository<AnyType>
         where AnyType : class
     {
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        private DbContext dbcontext = null;
+        private string _connectionString;
+        public AbstractDAL(string connectionString)
         {
-            //Mapping
-            modelBuilder.Entity<CustomerBase>().ToTable("Customers");
-        }
-        protected string _connectionString = "";
-        public AbstractDAL(string ConnectionString)
-            : base("name=conn")
-        {
-            _connectionString = ConnectionString;
-        }
-
-        public AbstractDAL()
-        {
-            
+            dbcontext = new Uow(connectionString);  //self contained transaction
+            _connectionString = connectionString;
         }
 
         //protected List<AnyType> objects = new List<AnyType>(); //no need to create in-memory list where EF already handles In-Memory
 
         public virtual void Add(AnyType obj)
         {
-            Set<AnyType>().Add(obj); //In-Memory
+            dbcontext.Set<AnyType>().Add(obj); //In-Memory
         }
          
         public virtual void Save(AnyType obj)
         {
-            SaveChanges();
+            dbcontext.SaveChanges();
         }
 
         public virtual List<AnyType> Search(AnyType obj)
@@ -55,10 +45,15 @@ namespace CommonDal
 
         public virtual List<AnyType> GetAll()
         {
-            var custs = Set<AnyType>()
+            var custs = dbcontext.Set<AnyType>()
                     .ToList();
 
             return custs;
+        }
+
+        public void SetUnitOfWork(IUow IUow)
+        {
+            dbcontext = ((Uow)IUow);  //Global transaction
         }
     }
 }

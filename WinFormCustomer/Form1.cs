@@ -85,22 +85,28 @@ namespace WinFormCustomer
 
         private List<CustomerBase> LoadGrid()
         {
-            IDAL<CustomerBase> dal = null;
+            IRepository<CustomerBase> dal = null;
             dal = FactoryCustomer.CreateDAL("CustomerDAL");
 
+            IUow unitOfWork = (IUow)FactoryCustomer.CreateUOW();
+            dal.SetUnitOfWork(unitOfWork);
             return dal.GetAll();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             //validate first
             customer.Validate();
 
-            IDAL<CustomerBase> dal = null;
+            IRepository<CustomerBase> dal = null;
             dal = FactoryCustomer.CreateDAL("CustomerDAL");
 
             //get customer base instance using factory
             CustomerBase customerBase = new CustomerBase();
+
+            //get customer base instance using factory
+            IUow unitOfWork = (IUow)FactoryCustomer.CreateUOW();
 
             //Map
             customerBase.Address = customer.Address;
@@ -110,9 +116,18 @@ namespace WinFormCustomer
             customerBase.PhoneNumber = customer.PhoneNumber;
             customerBase.CustomerName = customer.CustomerName;
 
-            dal.Add(customerBase);
-            dal.Save(customerBase);
-            dataGridView1.DataSource = LoadGrid();
+            try
+            {
+                dal.SetUnitOfWork(unitOfWork);
+                dal.Add(customerBase);
+                //dal.Save(customerBase);
+                unitOfWork.Committ();   //use unit-of-work design pattern
+                dataGridView1.DataSource = LoadGrid();
+            }
+            catch
+            {
+                unitOfWork.Rollback();
+            }
         }
     }
 }

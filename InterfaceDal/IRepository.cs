@@ -10,12 +10,13 @@ namespace InterfaceDal
 {
     // Design Pattern :- Repository pattern
 
-    public interface IDAL<AnyType>
+    public interface IRepository<AnyType>
     {
         void Add(AnyType obj); //InMemory Addition
         void Update(AnyType obj); //InMemory Updation
         List<AnyType> Search(AnyType obj);
         void Save(AnyType obj); //Physicl committ
         List<AnyType> GetAll();
+        void SetUnitOfWork(IUow uow);
     }
 }

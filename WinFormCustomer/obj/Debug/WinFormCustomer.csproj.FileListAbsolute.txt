@@ -43,7 +43,6 @@ E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\InterfaceDal.dl
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\Unity.Abstractions.dll
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\Unity.Container.dll
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\ValidationAlgorithms.dll
-E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\EF.DAL.dll
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\EntityFramework.dll
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\CommonDal.dll
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\CustomerInterface.pdb
@@ -54,7 +53,6 @@ E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\EntityFramework
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\Unity.Abstractions.pdb
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\Unity.Container.pdb
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\ValidationAlgorithms.pdb
-E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\EF.DAL.pdb
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\EntityFramework.xml
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\CommonDal.pdb
 E:\Private Work\ApplyingDesignPatterns\WinFormCustomer\bin\Debug\CommonDal.dll.config

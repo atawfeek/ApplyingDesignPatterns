@@ -9,8 +9,8 @@ using Unity;
 using CustomerInterface;
 using Unity.Injection;
 using ValidationAlgorithms;
-using EF.DAL;
 using InterfaceDal;
+using CommonDal;
 
 namespace Factory
 {
@@ -30,24 +30,35 @@ namespace Factory
                 customersContainer.RegisterType<ICustomer, Lead>("Lead"
                      , new InjectionConstructor(new ValidationLead())
                      );
-
-
-                //customers.Add("Customer", new Customer());
-                //customers.Add("Lead", new Lead());
             }
 
             //return customers[custType]; //Polymorphism design pattern
             return customersContainer.Resolve<ICustomer>(custType);
         }
 
+        private static IUnityContainer customersContainerUOW = null; //dependancy injection replaces simple factory pattern
+        public static object CreateUOW()
+        {
+            if (customersContainerUOW == null) //lazy loading design pattern
+            {
+                customersContainerUOW = new UnityContainer();
+
+                customersContainerUOW.RegisterType<IUow, Uow>("UnitOfWork"
+                    , new InjectionConstructor("Data Source=.;Initial Catalog=Customers;User ID=sa;Password=Windows.2000;Integrated Security=True")
+                     );
+            }
+                
+            return customersContainerUOW.Resolve<IUow>("UnitOfWork");
+        }
+
         private static IUnityContainer customersContainerDAL = null; //dependancy injection replaces simple factory pattern
-        public static IDAL<CustomerBase> CreateDAL(string custType)
+        public static IRepository<CustomerBase> CreateDAL(string custType)
         {
             if (customersContainerDAL == null) //lazy loading design pattern
             {
                 customersContainerDAL = new UnityContainer();
 
-                customersContainerDAL.RegisterType<IDAL<CustomerBase>, CustomerDAL>("CustomerDAL"
+                customersContainerDAL.RegisterType<IRepository<CustomerBase>, AbstractDAL<CustomerBase>>("CustomerDAL"
                     , new InjectionConstructor("Data Source=.;Initial Catalog=Customers;User ID=sa;Password=Windows.2000;Integrated Security=True")
                      );
 
@@ -56,7 +67,7 @@ namespace Factory
             }
 
             //return customers[custType]; //Polymorphism design pattern
-            return customersContainerDAL.Resolve<IDAL<CustomerBase>>(custType);
+            return customersContainerDAL.Resolve<IRepository<CustomerBase>>(custType);
         }
     }
 }

@@ -24,4 +24,10 @@ namespace CustomerInterface
     {
         void Validate(AnyType obj);
     }
+
+    public interface IUow
+    {
+        void Committ();
+        void Rollback();
+    }
 }

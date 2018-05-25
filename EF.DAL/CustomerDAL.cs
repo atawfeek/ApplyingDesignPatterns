@@ -11,11 +11,6 @@ namespace EF.DAL
 {
     public class CustomerDAL : AbstractDAL<CustomerBase>
     {
-        public CustomerDAL(string connectionString) : base(connectionString)
-        {
-            
-        }
-
         public CustomerDAL() : base()
         {
 
