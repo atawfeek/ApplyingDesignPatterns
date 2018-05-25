@@ -3,3 +3,8 @@ C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.csproj.CoreCompileInputs.cache
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.dll
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.pdb
+E:\Private Work\ApplyingDesignPatterns\CustomerInterface\bin\Debug\CustomerInterface.dll
+E:\Private Work\ApplyingDesignPatterns\CustomerInterface\bin\Debug\CustomerInterface.pdb
+E:\Private Work\ApplyingDesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.csproj.CoreCompileInputs.cache
+E:\Private Work\ApplyingDesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.dll
+E:\Private Work\ApplyingDesignPatterns\CustomerInterface\obj\Debug\CustomerInterface.pdb

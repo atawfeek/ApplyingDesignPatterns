@@ -7,3 +7,12 @@ C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CopyComplete
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.dll
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.pdb
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.dll
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.pdb
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\bin\Debug\CustomerInterface.dll
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\bin\Debug\CustomerInterface.pdb
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csprojAssemblyReference.cache
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CoreCompileInputs.cache
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CopyComplete
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.dll
+E:\Private Work\ApplyingDesignPatterns\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.pdb

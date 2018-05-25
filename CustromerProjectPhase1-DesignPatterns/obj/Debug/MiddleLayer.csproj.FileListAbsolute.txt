@@ -7,3 +7,12 @@ C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.dll
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.pdb
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csproj.CopyComplete
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.dll
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.dll
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\bin\Debug\CustomerInterface.pdb
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csprojAssemblyReference.cache
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csproj.CoreCompileInputs.cache
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\MiddleLayer.csproj.CopyComplete
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.dll
+E:\Private Work\ApplyingDesignPatterns\CustromerProjectPhase1-DesignPatterns\obj\Debug\CustromerProjectPhase1-DesignPatterns.pdb

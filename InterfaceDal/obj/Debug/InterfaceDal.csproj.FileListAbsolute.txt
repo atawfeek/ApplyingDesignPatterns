@@ -9,3 +9,14 @@ C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.csproj.CopyComplete
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\InterfaceDal\bin\Debug\CustromerProjectPhase1-DesignPatterns.dll
 C:\Users\Abdelrahman Tawfeek\source\repos\CustromerProjectPhase1-DesignPatterns\InterfaceDal\bin\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\InterfaceDal.dll
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\InterfaceDal.pdb
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\CustomerInterface.dll
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\CustromerProjectPhase1-DesignPatterns.dll
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\CustomerInterface.pdb
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\bin\Debug\CustromerProjectPhase1-DesignPatterns.pdb
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.csprojAssemblyReference.cache
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.csproj.CoreCompileInputs.cache
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.csproj.CopyComplete
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.dll
+E:\Private Work\ApplyingDesignPatterns\InterfaceDal\obj\Debug\InterfaceDal.pdb
