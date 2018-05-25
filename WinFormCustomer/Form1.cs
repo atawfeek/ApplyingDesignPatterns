@@ -28,12 +28,12 @@ namespace WinFormCustomer
             if(comboBox1.Text == "Customer")
             {
                 customer = null;
-                customer = FactoryCustomer.Create("Customer");
+                customer = (ICustomer)FactoryCustomer.Create("Customer");
             }
             if (comboBox1.Text == "Lead")
             {
                 customer = null;
-                customer = FactoryCustomer.Create("Lead");
+                customer = (ICustomer)FactoryCustomer.Create("Lead");
             }
 
             //initial values
@@ -89,6 +89,30 @@ namespace WinFormCustomer
             dal = FactoryCustomer.CreateDAL("CustomerDAL");
 
             return dal.GetAll();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //validate first
+            customer.Validate();
+
+            IDAL<CustomerBase> dal = null;
+            dal = FactoryCustomer.CreateDAL("CustomerDAL");
+
+            //get customer base instance using factory
+            CustomerBase customerBase = new CustomerBase();
+
+            //Map
+            customerBase.Address = customer.Address;
+            customerBase.BillAmount = customer.BillAmount;
+            customerBase.BillDate = customer.BillDate;
+            customerBase.Address = customer.Address;
+            customerBase.PhoneNumber = customer.PhoneNumber;
+            customerBase.CustomerName = customer.CustomerName;
+
+            dal.Add(customerBase);
+            dal.Save(customerBase);
+            dataGridView1.DataSource = LoadGrid();
         }
     }
 }
